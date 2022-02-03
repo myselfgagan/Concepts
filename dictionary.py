@@ -1,5 +1,5 @@
 # creating dict using dict function
-mydict = (name = "Gagan", age = 25, city = "Jabalpur")
+mydict = {"name" : "Gagan", "age" : 25, "city": "Jabalpur"}
 
 # adding new pair
 mydict["email"] = "gagan@123.com"
@@ -30,8 +30,8 @@ mydict_copy = mydict.copy()
 mydict_copy = dict(mydict)
 
 # to update a dictionary with other dictionary
-mydict = (name = "Gagan", age = 25, city = "Jabalpur")
-mydict2 = (name = "Gagan", age = 26, email = "gagan@123.com")
+mydict = {"name" : "Gagan", "age" : 25, "city" : "Jabalpur"}
+mydict2 = {"name" : "Gagan", "age" : 26, "email" : "gagan@123.com"}
 mydict.update(mydict2)
 
 
